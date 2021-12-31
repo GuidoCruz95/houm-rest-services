@@ -1,0 +1,95 @@
+{
+   "houmers":[
+      {
+         "id":1001,
+         "name":"Jose",
+         "last_name":"maria cardenas",
+         "current_location":"-33.387451296071845, -70.61456199591032"
+      },
+      {
+         "id":1002,
+         "name":"Daniela",
+         "last_name":"Perez Ovando",
+         "current_location":"-33.38896955808164, -70.61746647304639"
+      },
+      {
+         "id":1003,
+         "name":"Damaris",
+         "last_name":"Claros A.",
+         "current_location":"-33.447015625922795, -70.84004733004586"
+      }
+   ],
+   "places":[
+      {
+         "id":2001,
+         "owner":"Unknown",
+         "name":"Houm office",
+         "description":"Main Houm office",
+         "location":"-33.387451296071845, -70.61456199591032"
+      },
+      {
+         "id":2002,
+         "owner":"Unknown",
+         "name":"Plaza Norte",
+         "description":"Commercial Center",
+         "location":"-33.38896955808164, -70.61746647304639"
+      },
+      {
+         "id":2003,
+         "owner":"Unknown",
+         "name":"Clinica Davila",
+         "description":"Private hospital",
+         "location":"-33.42553775053651, -70.64813859320215"
+      },
+      {
+         "id":2004,
+         "owner":"Unknown",
+         "name":"Condominio Ciudad de los valles",
+         "description":"custom home builder",
+         "location":"-33.447015625922795, -70.84004733004586"
+      }
+   ],
+   "visitors":[
+      {
+         "id":3001,
+         "name":"Luis",
+         "last_name":"Zeballos Mamani",
+         "current_location":"-33.387451296071845, -70.61456199591032"
+      },
+      {
+         "id":3002,
+         "name":"Fernando",
+         "last_name":"Perez",
+         "current_location":"-33.38896955808164, -70.61746647304639"
+      },
+      {
+         "id":3003,
+         "name":"Clara Ramirez",
+         "last_name":"Claros A.",
+         "current_location":"-33.447015625922795, -70.84004733004586"
+      }
+   ],
+   "visited":[
+      {
+         "houmer":1001,
+         "place":2001,
+         "visitor":3001,
+         "started_at":"",
+         "completed_at":""
+      },
+      {
+         "houmer":1001,
+         "place":2002,
+         "visitor":3002,
+         "started_at":"",
+         "completed_at":""
+      },
+      {
+         "houmer":1001,
+         "place":2003,
+         "visitor":3003,
+         "started_at":"",
+         "completed_at":""
+      }
+   ]
+}
