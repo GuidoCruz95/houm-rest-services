@@ -98,4 +98,4 @@ def get_place_by_id(place_id):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
