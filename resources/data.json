@@ -74,22 +74,22 @@
          "houmer":1001,
          "place":2001,
          "visitor":3001,
-         "started_at":"",
-         "completed_at":""
+         "started_at":"2018-05-03 08:00:00",
+         "completed_at":"2018-05-03 11:00:00"
       },
       {
          "houmer":1001,
          "place":2002,
          "visitor":3002,
-         "started_at":"",
-         "completed_at":""
+         "started_at":"2018-05-20 08:00:00",
+         "completed_at":"2018-05-20 18:00:00"
       },
       {
          "houmer":1001,
          "place":2003,
          "visitor":3003,
-         "started_at":"",
-         "completed_at":""
+         "started_at":"2020-08-08 10:00:00",
+         "completed_at":"2020-08-08 21:00:00"
       }
    ]
 }

@@ -35,6 +35,28 @@ def get_houmer_by_id(houmer_id):
     return jsonify(curl_access.get_houm(houmer_id))
 
 
+@app.route("/houmer/<int:houmer_id>/coordinates")
+def get_houmer_coordinates(houmer_id):
+    """Houmer coordinate by houmer_id
+
+    :return: Houmer current location coordinates
+    :rtype: json
+    """
+    houmer = curl_access.get_houm(houmer_id)
+    return jsonify(houmer.get("current_location") if houmer else None)
+
+
+@app.route("/houmer/<int:houmer_id>/visited/<date>")
+def get_houmer_visited_places(houmer_id, date):
+    """Visited places by a houmer in a specific day
+
+    :return: Visited places with details
+    :rtype: json
+    """
+    visited_places = curl_access.get_visited_places_by_houmer(houmer_id, date)
+    return jsonify(visited_places)
+
+
 @app.route("/visitors")
 def get_visitors():
     """Visitors registered in the system
